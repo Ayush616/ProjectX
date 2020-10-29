@@ -1,0 +1,123 @@
+
+.navbar{
+    background-color: #0070ba;
+    background-image: linear-gradient(100deg,#0070ba,#1546a0);
+    box-shadow: 0 1px 15px grey !important;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.navbar ul li {
+    padding: -2px !important;
+}
+
+.navbar ul li:hover {
+    box-shadow: 0 1px 0 white;
+
+}
+
+.container{
+    border: 2px solid blue;
+    margin-top: 95px !important;
+}
+
+.dash{
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+    height: 60vh;
+    border: 2px solid red;
+    padding-bottom: 20vh !important;
+}
+.dash ul{
+    list-style-type: none;
+}
+.wel{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 35px;
+}
+
+.service{
+    border: 2px solid red;
+    height: 25vh;
+}
+
+.cards{
+    margin: -7vh 5vw 0 5vw;
+}
+.service .card{
+    box-shadow: 1px 2px 10px grey !important;
+    border: 2px solid green;
+
+}
+
+.service .card:hover{
+                -ms-transform: scale(1.2); /* IE 9 */
+              -webkit-transform: scale(1.2); /* Safari 3-8 */
+              transform: scale(1.05);
+              box-shadow: 2px 4px 10px grey;
+}
+
+.service .card .c1{
+    color: blue;
+}
+
+.service .card .c2{
+    color: #ffcc00;
+}
+
+.service .card .c3{
+    color: green;
+}
+
+.c{
+    border: 2px solid red;
+}
+
+.services{
+    margin-top: 15px;
+}
+
+.services ul{
+    list-style-type: none;
+    padding-left: 0px !important;
+}
+
+.services ul a{
+    text-decoration: none;
+}
+
+.announcements{
+    border: 2px solid green;
+}
+
+/* For Mobile Screen */
+
+@media only screen and (max-width:1200px){
+  .announcements{
+      width: 50%;
+  }
+  .service{
+      height: 50vh;
+  }
+}
+
+@media only screen and (max-width:768px){
+    .service{
+        height: 78vh;
+    }
+  }
+
+@media only screen and (max-width:576px){
+    .announcements{
+        width: 80%;
+    }
+    .service{
+        height: 90vh;
+    }
+  }
+
+  @media only screen and (max-width:360px){
+    .service{
+        height: 100vh;
+    }
+  }  
+/*********************/
